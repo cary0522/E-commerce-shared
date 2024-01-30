@@ -1,0 +1,44 @@
+.logo {
+    color: #FFAF60;
+}
+
+#burger {
+    display: none;
+}
+
+#burger:checked+.burgerItem {
+    top: 30px;
+    right: 15%;
+}
+
+.burgerItem {
+    background-color: gray;
+    position: absolute;
+    right: -1200px;
+}
+
+.footer {
+    background-color: #FFAF60;
+}
+
+.information {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .icons {
+        display: none;
+    }
+
+    .burgerItem {
+        position: inherit;
+        background-color: #FFAF60;
+        top: 0px;
+        right: 0px;
+    }
+
+    .information {
+        display: block;
+    }
+
+}
